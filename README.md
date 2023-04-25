@@ -4,10 +4,6 @@ A Python-based optokinetic reflex analysis tool to measure wave speeds in three 
 
 **Requirements**: 
 
-Python 3.8
+-Python 3.8
 
-PyQt5
-
-**How to Use**:
-
-
+-PyQt5
