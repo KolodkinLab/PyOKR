@@ -12,4 +12,5 @@ A Python-based optokinetic reflex analysis tool to measure and quantify eye trac
 
 **Tutorial**:
 
+<img src="https://user-images.githubusercontent.com/131790844/234955247-81bd3c4c-b7ef-422e-9e7f-9b093297557f.jpg" width = 75% height=75%>
 
