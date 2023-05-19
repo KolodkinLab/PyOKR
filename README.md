@@ -32,4 +32,30 @@ After all mouse data is collected, the button, "Sort Data," under Analysis will 
 
 **A Step-by-Step Analysis Example**:
 
+**1) File inputs and stimulus parameters**
+
+<img src= "https://github.com/KolodkinLab/PyOKR/assets/131790844/34026a86-e543-453a-80c5-93f9e36d94fe" width = 50% height=50%>
+
+Current file and export folder paths shown, along with output file name. Sample trace selected is a nasal-to-temporal stimulus: Horizontal CCW at 5 degrees/second. Epoch 1 is selected and can be adjusted.
+
+**2) Initial saccade detection and supervision**
+
+<img src= "https://github.com/KolodkinLab/PyOKR/assets/131790844/bbc7746a-0501-40af-812f-949d5c2f524e" width = 50% height=50%>
+
+Wave file plotted in red. Fast phase saccades are automatically marked with a blue dot along the saccade. Misplaced points can be removed with a left click; missing points can be added with a right click. Once saccades are correctly marked, the user needs to click the middle mouse button to confirm points.
+
+**3) Selection of slow phase eye tracking**
+
+<img src= "https://github.com/KolodkinLab/PyOKR/assets/131790844/ddbbec7a-d3c7-47aa-a124-290d5476a4d6" width = 50% height = 50%>
+
+Top and bottom of saccades are automatically determined based off saccade points in part 2. Slow phases of the wave are segmented between saccade boundary points and marked in yellow. Distance of eye movement, velocity of the eye, and tracking gain relative to stimulus speed are automatically calculated and can be stored with the "Add Epoch" button. Three-dimensional representation of the eye's movement horizontally and vertically over time can be viewed:
+
+<img src= "https://github.com/KolodkinLab/PyOKR/assets/131790844/dd60f125-12c2-4c5b-9ada-3fbf6ff0bc11" width = 50% height = 50%>
+
+**4) Data analysis and export**
+
+<img src= "https://github.com/KolodkinLab/PyOKR/assets/131790844/6e1d9cb3-5dd6-48aa-88d9-1deb402c2dec" width = 50% height = 50%>
+
+Data for each epoch is stored in a dataset that can be exported to CSV with the export button. Epochs in each direction should be added and once all analyses are part of the dataset, the user should export the final analysis. Averages for each direction are automatically calculated and stored for export. The "Sort Data" function under the "Analysis" tab allows for automated sorting of the final analyses. All analysis CSVs will be located in the selected output folder.
+
 
