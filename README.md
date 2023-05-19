@@ -10,7 +10,7 @@ A Python-based optokinetic reflex analysis tool to measure and quantify eye trac
 
 - Spyder IDE (suggested for interactive graphs)
 
-**Tutorial**:
+**UI Tutorial**:
 
 <img src="https://user-images.githubusercontent.com/131790844/234955247-81bd3c4c-b7ef-422e-9e7f-9b093297557f.jpg" width = 75% height=75%>
 
@@ -29,3 +29,7 @@ A Python-based optokinetic reflex analysis tool to measure and quantify eye trac
 **Panel G**: In this panel, "Add Epoch" adds the analysis to the final dataset, if the final estimation looks accurate. "View Current Dataset" displays all epochs that have been added previously to the dataset for a mouse. "Export Data" saves the dataset and exports it to a finalized CSV based on parameters set in Panel A.
 
 After all mouse data is collected, the button, "Sort Data," under Analysis will sort all final CSVs for a given experiment to allow for easier processing for generating a graph.
+
+**A Step-by-Step Analysis Example**:
+
+
