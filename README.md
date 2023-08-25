@@ -22,6 +22,8 @@ A Python-based optokinetic reflex analysis tool to measure and quantify eye trac
 
 - Scipy
 
+- SymPy
+
 - Pandasgui
 
 **UI Tutorial**:
