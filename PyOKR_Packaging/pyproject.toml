@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyOKR"
+version = "1.0.5"
+authors = [
+  { name="James Kiraly", email="james@kiraly.com" },
+]
+description = "A semi-automated method to analyze optokinetic reflex responses"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    'matplotlib >= 3.6.3',
+    'mouse ~= 0.7.1',
+    'keyboard ~= 0.13.5',
+    'numpy >= 1.24.4',
+    'pandas >= 2.0.3',
+    'PyQt5 >= 5.14.0',
+    'scikit-learn ~= 1.3.2',
+    'scipy >= 1.10.1',
+    'pandasgui >= 0.2.14',
+    'sympy >= 1.12'
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/KolodkinLab/PyOKR"

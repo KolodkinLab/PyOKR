@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/PyOKR/OKR.py
+src/PyOKR/__init__.py
+src/PyOKR.egg-info/PKG-INFO
+src/PyOKR.egg-info/SOURCES.txt
+src/PyOKR.egg-info/dependency_links.txt
+src/PyOKR.egg-info/requires.txt
+src/PyOKR.egg-info/top_level.txt

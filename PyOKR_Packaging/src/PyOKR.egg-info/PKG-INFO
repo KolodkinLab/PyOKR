@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: PyOKR
+Version: 1.0.5
+Summary: A semi-automated method to analyze optokinetic reflex responses
+Author-email: James Kiraly <james@kiraly.com>
+Project-URL: Homepage, https://github.com/KolodkinLab/PyOKR
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: matplotlib>=3.6.3
+Requires-Dist: mouse~=0.7.1
+Requires-Dist: keyboard~=0.13.5
+Requires-Dist: numpy>=1.24.4
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: PyQt5>=5.14.0
+Requires-Dist: scikit-learn~=1.3.2
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: pandasgui>=0.2.14
+Requires-Dist: sympy>=1.12
+
+# PyOKR
+A Python-based optokinetic reflex analysis tool to measure and quantify eye tracking motion in three dimensions. Video-oculography data can be modeled computationally to quantify specific tracking speeds and ability in horizontal and vertical space. 
+
+**Requirements**: 
+
+- Python >= 3.8
+
+- Spyder IDE via Anaconda (suggested for interactive graphs)
+
+**Imports**:
+
+- PyQT5
+
+- Pandas
+
+- Matplotlib
+
+- Numpy
+
+- Sklearn.neighbors (from scikit)
+
+- Scipy
+
+- SymPy
+
+- Pandasgui
+
